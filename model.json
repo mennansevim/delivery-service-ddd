@@ -1,0 +1,59 @@
+{
+    "company": {
+        "code": "E-COMMERCE-HIZLISAT",
+        "name": "HIZLISAT",
+        "identityNumber": "HS01",
+        "createdBy": "systemuser",
+        "updatedBy": "",
+        "typeId": 1
+    },
+    "addresses": [
+        {
+            "address": "123 Main Street",
+            "fullName": "first-name-1 last-name-1",
+            "addressType": "CompanyWarehouse",
+            "firstName": "first-name-1",
+            "lastName": "last-name-1",
+            "countryName": "country-name",
+            "freeTradeZone": false,
+            "email": "email@email.com",
+            "city": "city-1",
+            "town": "town-1",
+            "phone": "5332343533"
+        },
+        {
+            "addressType": "Shipping",
+            "address": "123 Main Street",
+            "fullName": "first-name-1 last-name-1",
+            "firstName": "first-name-1",
+            "lastName": "last-name-1",
+            "countryName": "country-name",
+            "freeTradeZone": false,
+            "email": "email@email.com",
+            "city": "city",
+            "town": "town",
+            "phone": "5332343533"
+        }
+    ],
+    "packages": [
+        {
+            "product": {
+                "name": "Dummy Product",
+                "barcode": "BARCODE123",
+                "contentId": 789
+            },
+            "Items": [
+                {
+                    "color": "Red",
+                    "size": "M",
+                    "variantId": "123415432"
+                },
+                {
+                    "color": "Blue",
+                    "size": "S",
+                    "variantId": "312321"
+                }
+            ]
+        }
+    ]
+}

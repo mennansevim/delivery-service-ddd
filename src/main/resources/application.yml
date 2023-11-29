@@ -1,0 +1,27 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: example-api
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  servlet:
+    context-path: /
+  port: 8080
+  shutdown: graceful
+  error:
+    whitelabel:
+      enabled: false
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+
+couchbase:
+  connection-string: couchbase://127.0.0.1
+  bucket: delivery
+  username: admin
+  password: test123
+  companyCollection: Company
