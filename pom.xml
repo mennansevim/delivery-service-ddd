@@ -19,7 +19,7 @@
         <newrelic-version>7.9.0</newrelic-version>
         <dynamic-configuration.version>1.2.0</dynamic-configuration.version>
         <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
-        <logback.version>1.2.11</logback.version>
+        <logback.version>1.2.13</logback.version>
         <spring-data-couchbase.version>4.4.6</spring-data-couchbase.version>
         <spring-boot-starter-data-couchbase-reactive.version>3.0.1</spring-boot-starter-data-couchbase-reactive.version>
         <org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
